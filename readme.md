@@ -16,5 +16,26 @@ A client-server application to test and compare network speeds using **UDP** and
 
 To start the server, run the following command:
 
-```bash
 python3 src/Server.py
+
+### 2. Running the Client
+
+To start the client, run the following command:
+
+python3 src/Client.py
+
+### 3. Getting the Statistics
+
+To display all statistics, run the following command from the root folder:
+
+./print_all_stats.sh
+
+## 🤖 Contributors
+
+This project was developed by the following contributors:
+
+- [**Daniel Shamir**](https://github.com/Daniel-Shamir) – Co-Developer
+- [**Avikam Levi**](https://github.com/avikaml) – Co-Developer
+
+Feel free to check out their GitHub profiles for more information!
+
