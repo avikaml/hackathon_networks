@@ -92,7 +92,7 @@ class PayloadMsg(Msg):
 
     def encode(self, totalSegmentCount, currentSegmentCount, payload):
         # error checking
-        if totalSegmentCount < 0 or currentSegmentCount < 0 or currentSegmentCount >= totalSegmentCount:
+        if totalSegmentCount < 0 or currentSegmentCount < 0 or currentSegmentCount > totalSegmentCount:
             raise Exception("Invalid segment count")
         if len(payload) < 0:
             raise Exception("Invalid payload")
