@@ -139,7 +139,7 @@ def start_client():
         print(f"{CLIENT} All transfers complete, listening to offer requests")
 
         # TODO: uncomment to run continuously
-        return
+        # return
 
 team_name_ascii_art = '''
  /$$$$$$$                  /$$       /$$   /$$             /$$        
